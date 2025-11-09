@@ -1,0 +1,14 @@
+name: ceas
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - jupyter
+  - pip
+  - pip:
+      - tqdm
+      - joblib
+      - networkx

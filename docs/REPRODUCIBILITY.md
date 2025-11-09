@@ -1,0 +1,4 @@
+- All runs are scripted; outputs go under `results/`.
+- Random seeds live in `ceas/harness/seed_registry.py`.
+- Statistics: non-parametric bootstrap CIs for means/medians; extend as needed.
+- Use `make clean` then rerun to reproduce charts/tables.
